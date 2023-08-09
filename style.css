@@ -79,4 +79,30 @@ article a {
     text-decoration: none;
 }
 
+div {
+    margin: 20px;
+    overflow: hidden;
+}
+
+label {
+    font-size: 18px;
+    color: #125688;
+    margin-right: 10px;
+}
+
+input[type="pesquisa"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #125688;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+input[type="pesquisa"]:focus {
+    border-color: #E57A00;
+    outline: none;
+}
+
 
